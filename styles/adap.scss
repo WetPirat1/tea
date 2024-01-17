@@ -1,0 +1,53 @@
+@media (max-width: 1035px) {
+
+    main{
+        .blog-section{
+            .blog-section_container{
+                .tea-blog-list{
+                    justify-content: initial;
+                    
+                    .tea-blog2,.tea-blog4{
+                        margin-left: 162px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    footer{
+        .footer_container{
+            .footer-flex-design{
+                .footer-adap-design{
+                    display: block;
+
+                    .footer-quote{
+                        margin-top: 0;
+
+                        line-height: normal;
+                        font-size: 16px;
+                        margin-bottom: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+//для ти блога стили
+    // main{
+    //     .blog-section{
+    //         .blog-section_container{
+    //             .tea-blog-list{
+    //                 justify-content: initial;
+                    
+    //                 .tea-blog2,.tea-blog4{
+    //                     margin-left: 162px;
+    //                 }
+
+    //             }
+    //         }
+    //     }
+    // }

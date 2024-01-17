@@ -1,0 +1,450 @@
+
+
+
+[class*="_container"]{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 0 20px;
+}
+
+header{
+    margin: 30px 0 60px 0;
+    nav{
+        .nav_container{
+
+            align-items: center;
+            display: flex;
+
+            justify-content: space-between;
+            ul{
+                display: flex;
+                
+                a{
+                    color: black;
+                    font-weight: 400;
+
+                    font-size: 18px;
+                }
+            }
+            .tea-sort{
+                gap: 65px;
+            }
+
+            .tea-icons{
+                gap: 20px;
+                img{
+                    width: 20px;
+                    height: 22px;
+                }
+                li:last-child{
+                    margin-left: 80px;
+                }
+            }
+        }
+    }
+}
+
+main{
+    //стили для большинства одинаковых тегов
+    h2,a,p{
+        font-weight: 400;
+    }
+
+    h2{
+        font-size: 40px;
+        color: #151618;
+
+        text-align: center;
+        margin: 0 auto;
+
+        margin-bottom: 60px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    a{
+        font-size: 20px;
+
+        color: black;
+    }
+    //одинаковые отступы вниз для всех секций, что б не писать каждой
+    .hero-section,.tea-section,.reviews-section,
+    .blog-section,.Questions-section,.Prioritise-section{
+        margin-bottom: 150px;
+    }
+    //это одинаковые по стилям кнопки и линки
+    .blog-link,.form-btn{
+        font-size: 20px;
+        
+        border: 1px solid black;
+        padding: 12px 41px;
+
+        background: white;
+    }
+
+    .hero-section{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+
+        .hero-section-body_container{
+            h1{
+                padding-top: 254px;
+                margin-bottom: 20px;
+    
+                font-size: 60px;
+                color: white;
+    
+                line-height: 60px;
+
+                max-width: 800px;
+            }
+            p{
+                font-size: 24px;
+                color: white;
+
+                max-width: 580px;
+            }
+        }
+
+
+    }
+
+    .tea-section{
+        .tea-section_container{
+
+            h2{
+                max-width: 704px;
+
+                margin-bottom: 150px;
+            }
+
+            h3{
+                font-size: 40px;
+                font-weight: 400;
+
+                text-align: center;
+
+                margin-bottom: 80px;
+            }
+
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+
+                flex: 1 1 auto;
+                justify-content: center;
+                gap: 20px;
+                
+                li{
+                    img{
+                        max-width: 600px;
+                        max-height: 600px;
+                    }
+                }
+            }
+        }
+    }
+
+    .reviews-section{
+        background: #f7f2eab6;
+        
+        .reviews-section_container{
+            h2{
+                padding-top: 60px;
+            }
+
+            ul{
+                display: flex;
+                gap: 26px;
+                li{
+                    max-width: 280px;
+                    span{
+                        font-weight: 600;
+                    }
+                }
+
+                padding-bottom: 60px;
+            }
+        }
+
+    }
+
+    .blog-section{
+        .blog-section_container{
+            text-align: center;
+            .tea-blog-list{
+                
+                display: flex;
+                flex-wrap: wrap;
+                flex: 1 1 auto;
+
+                gap: 40px 58px;
+
+                justify-content: center;
+
+                text-align: initial;
+
+                margin-bottom: 60px;
+                .tea-blog,.tea-blog2,.tea-blog3,.tea-blog4{
+                    width: 542px;
+
+                    display: flex;
+
+                    img{
+                        margin-right: 20px;
+                    }
+
+                    .right-part-blog{
+                        min-height: 100%;
+                        display: flex;
+                        flex-direction: column;
+
+                        h5{
+                            font-size: 24px;
+
+                            margin-bottom: 10px;
+                        }
+                        
+                        p{
+                            flex: 1 1 auto;
+                        }
+
+                    }
+
+                }  
+                
+            }
+        }
+    }
+
+    .Questions-section{
+        background: var(--Light-Background, #F7F2EA);
+
+        .Questions-section_container{
+            h2{
+                text-align: start;
+
+                padding-top: 100px;
+            }
+            .questions-form{
+                display: flex;
+                gap: 40px;
+
+                padding-bottom: 100px;
+                .left-part{
+                    width: 50%;
+
+                    p{
+                        line-height: 30px;
+                        font-size: 20px;
+                        font-weight: 300;
+                    }
+                }
+                .right-part{
+                    width: 50%;
+                    
+                    .form-flex-design{
+                        display: flex;
+
+                        margin-bottom: 12px;
+
+                        .form-email{
+                            margin-right: 25px;
+
+                            width: 100%;
+
+                            border-bottom: 1px solid #B8B58B;
+
+                            background: none;
+
+                            font-size: 20px;
+                        }
+
+                        .form-email::placeholder{
+                            padding-left: 20px;
+                            
+                            font-size: 20px;
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+
+    .Prioritise-section{
+
+        .Prioritise-section_container{
+
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                flex: 1 1 auto;
+
+                justify-content: center;
+                gap: 50px;
+
+                li{
+                    width: 250px;
+
+                    text-align: center;
+
+                    h3{
+                        font-size: 30px;
+                        font-weight: 300;
+
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 20px;
+                        font-weight: 600;
+
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+footer{
+    background: var(--Light-Background, #F7F2EA);
+
+    .footer_container{
+        padding-top: 100px;
+
+        
+        .footer-flex-design{
+            display: flex;
+            justify-content: center;
+            gap: 150px;
+
+            .footer-Products,.footer-Company{
+                li{
+                    margin-bottom: 20px;
+    
+                    h4{
+                        font-size: 24px;
+        
+                        font-weight: 400;
+        
+                        margin-bottom: 50px;
+                    }
+                    a{
+                        color: Black;
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                }
+            }
+
+            .footer-adap-design{
+                display: flex;
+                gap: 40px;
+    
+                .footer-quote{
+                    margin-top: 80px;
+                    width: 280px;
+    
+                    font-size: 16px;
+    
+                    span{
+                        font-size: 12px;
+                        font-weight: 300;
+                    }
+                }
+            }
+    
+            .footer-StayInTouch{
+                h4{
+                    font-size: 24px;
+        
+                    margin-bottom: 50px;
+                }
+                p{
+                    font-size: 13px;
+    
+                    font-weight: 300;
+                }
+    
+                .footer-contact{
+                    margin-top: 20px;
+                    display: flex;
+                    align-items: center;
+    
+                    margin-bottom: 40px;
+                    p{
+                        margin-bottom: 20px;
+                    }
+    
+                    li{
+                        display: flex;
+    
+                        img{
+                            width: 22px;
+                            height: 16px;
+                            
+                            margin-right: 10px;
+                        }
+    
+                        .footer-logo{
+                            width: 57px;
+                            height: 91px;
+    
+                            margin-right: 40px;
+                        }
+                    }    
+                }
+    
+                .social-media{
+                    align-items: center;
+                    display: flex;
+                    
+                    gap: 20px;
+    
+                    margin-left: 80px;
+    
+                    a{
+                        img{    
+                            width: 22px;
+                            height: 22px;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .footer-pay{
+            margin-top: 100px;
+
+            display: flex;
+
+            margin-left: 60px;
+
+            padding-bottom: 20px;
+
+            h4{
+                margin-right: 142px;
+
+                font-size: 16px;
+            }
+            ul{
+                display: flex;
+                align-items: center;
+
+                gap: 20px;
+            }
+        }
+    }
+
+}
+
+
