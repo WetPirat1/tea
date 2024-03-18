@@ -1,0 +1,302 @@
+[class*=_container] {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  margin: 30px 0 60px 0;
+}
+header nav .nav_container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+header nav .nav_container ul {
+  display: flex;
+}
+header nav .nav_container ul a {
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+header nav .nav_container .tea-sort {
+  gap: 65px;
+}
+header nav .nav_container .tea-icons {
+  gap: 20px;
+}
+header nav .nav_container .tea-icons img {
+  width: 20px;
+  height: 22px;
+}
+header nav .nav_container .tea-icons li:last-child {
+  margin-left: 80px;
+}
+
+main h2, main a, main p {
+  font-weight: 400;
+}
+main h2 {
+  font-size: 40px;
+  color: #151618;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+main p {
+  font-size: 18px;
+}
+main a {
+  font-size: 20px;
+  color: black;
+}
+main .hero-section, main .tea-section, main .reviews-section,
+main .blog-section, main .Questions-section, main .Prioritise-section {
+  margin-bottom: 150px;
+}
+main .blog-link, main .form-btn {
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 12px 41px;
+  background: white;
+}
+main .hero-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+main .hero-section .hero-section-body_container h1 {
+  padding-top: 254px;
+  margin-bottom: 20px;
+  font-size: 60px;
+  color: white;
+  line-height: 60px;
+  max-width: 800px;
+}
+main .hero-section .hero-section-body_container p {
+  font-size: 24px;
+  color: white;
+  max-width: 580px;
+}
+main .tea-section .tea-section_container h2 {
+  max-width: 704px;
+  margin-bottom: 150px;
+}
+main .tea-section .tea-section_container h3 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 80px;
+}
+main .tea-section .tea-section_container ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  justify-content: center;
+  gap: 20px;
+}
+main .tea-section .tea-section_container ul li img {
+  max-width: 600px;
+  max-height: 600px;
+}
+main .reviews-section {
+  background: rgba(247, 242, 234, 0.7137254902);
+}
+main .reviews-section .reviews-section_container h2 {
+  padding-top: 60px;
+}
+main .reviews-section .reviews-section_container ul {
+  display: flex;
+  gap: 26px;
+  padding-bottom: 60px;
+}
+main .reviews-section .reviews-section_container ul li {
+  max-width: 280px;
+}
+main .reviews-section .reviews-section_container ul li span {
+  font-weight: 600;
+}
+main .blog-section .blog-section_container {
+  text-align: center;
+}
+main .blog-section .blog-section_container .tea-blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  gap: 40px 58px;
+  justify-content: center;
+  text-align: initial;
+  margin-bottom: 60px;
+}
+main .blog-section .blog-section_container .tea-blog-list .tea-blog, main .blog-section .blog-section_container .tea-blog-list .tea-blog2, main .blog-section .blog-section_container .tea-blog-list .tea-blog3, main .blog-section .blog-section_container .tea-blog-list .tea-blog4 {
+  width: 542px;
+  display: flex;
+}
+main .blog-section .blog-section_container .tea-blog-list .tea-blog img, main .blog-section .blog-section_container .tea-blog-list .tea-blog2 img, main .blog-section .blog-section_container .tea-blog-list .tea-blog3 img, main .blog-section .blog-section_container .tea-blog-list .tea-blog4 img {
+  margin-right: 20px;
+}
+main .blog-section .blog-section_container .tea-blog-list .tea-blog .right-part-blog, main .blog-section .blog-section_container .tea-blog-list .tea-blog2 .right-part-blog, main .blog-section .blog-section_container .tea-blog-list .tea-blog3 .right-part-blog, main .blog-section .blog-section_container .tea-blog-list .tea-blog4 .right-part-blog {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main .blog-section .blog-section_container .tea-blog-list .tea-blog .right-part-blog h5, main .blog-section .blog-section_container .tea-blog-list .tea-blog2 .right-part-blog h5, main .blog-section .blog-section_container .tea-blog-list .tea-blog3 .right-part-blog h5, main .blog-section .blog-section_container .tea-blog-list .tea-blog4 .right-part-blog h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+main .blog-section .blog-section_container .tea-blog-list .tea-blog .right-part-blog p, main .blog-section .blog-section_container .tea-blog-list .tea-blog2 .right-part-blog p, main .blog-section .blog-section_container .tea-blog-list .tea-blog3 .right-part-blog p, main .blog-section .blog-section_container .tea-blog-list .tea-blog4 .right-part-blog p {
+  flex: 1 1 auto;
+}
+main .Questions-section {
+  background: var(--Light-Background, #F7F2EA);
+}
+main .Questions-section .Questions-section_container h2 {
+  text-align: start;
+  padding-top: 100px;
+}
+main .Questions-section .Questions-section_container .questions-form {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 100px;
+}
+main .Questions-section .Questions-section_container .questions-form .left-part {
+  width: 50%;
+}
+main .Questions-section .Questions-section_container .questions-form .left-part p {
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 300;
+}
+main .Questions-section .Questions-section_container .questions-form .right-part {
+  width: 50%;
+}
+main .Questions-section .Questions-section_container .questions-form .right-part .form-flex-design {
+  display: flex;
+  margin-bottom: 12px;
+}
+main .Questions-section .Questions-section_container .questions-form .right-part .form-flex-design .form-email {
+  margin-right: 25px;
+  width: 100%;
+  border-bottom: 1px solid #B8B58B;
+  background: none;
+  font-size: 20px;
+}
+main .Questions-section .Questions-section_container .questions-form .right-part .form-flex-design .form-email::placeholder {
+  padding-left: 20px;
+  font-size: 20px;
+}
+main .Prioritise-section .Prioritise-section_container ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  justify-content: center;
+  gap: 50px;
+}
+main .Prioritise-section .Prioritise-section_container ul li {
+  width: 250px;
+  text-align: center;
+}
+main .Prioritise-section .Prioritise-section_container ul li h3 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+main .Prioritise-section .Prioritise-section_container ul li p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+footer {
+  background: var(--Light-Background, #F7F2EA);
+}
+footer .footer_container {
+  padding-top: 100px;
+}
+footer .footer_container .footer-flex-design {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+footer .footer_container .footer-flex-design .footer-Products li, footer .footer_container .footer-flex-design .footer-Company li {
+  margin-bottom: 20px;
+}
+footer .footer_container .footer-flex-design .footer-Products li h4, footer .footer_container .footer-flex-design .footer-Company li h4 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+footer .footer_container .footer-flex-design .footer-Products li a, footer .footer_container .footer-flex-design .footer-Company li a {
+  color: Black;
+  font-size: 16px;
+  font-weight: 300;
+}
+footer .footer_container .footer-flex-design .footer-adap-design {
+  display: flex;
+  gap: 40px;
+}
+footer .footer_container .footer-flex-design .footer-adap-design .footer-quote {
+  margin-top: 80px;
+  width: 280px;
+  font-size: 16px;
+}
+footer .footer_container .footer-flex-design .footer-adap-design .footer-quote span {
+  font-size: 12px;
+  font-weight: 300;
+}
+footer .footer_container .footer-flex-design .footer-StayInTouch h4 {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+footer .footer_container .footer-flex-design .footer-StayInTouch p {
+  font-size: 13px;
+  font-weight: 300;
+}
+footer .footer_container .footer-flex-design .footer-StayInTouch .footer-contact {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+footer .footer_container .footer-flex-design .footer-StayInTouch .footer-contact p {
+  margin-bottom: 20px;
+}
+footer .footer_container .footer-flex-design .footer-StayInTouch .footer-contact li {
+  display: flex;
+}
+footer .footer_container .footer-flex-design .footer-StayInTouch .footer-contact li img {
+  width: 22px;
+  height: 16px;
+  margin-right: 10px;
+}
+footer .footer_container .footer-flex-design .footer-StayInTouch .footer-contact li .footer-logo {
+  width: 57px;
+  height: 91px;
+  margin-right: 40px;
+}
+footer .footer_container .footer-flex-design .footer-StayInTouch .social-media {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  margin-left: 80px;
+}
+footer .footer_container .footer-flex-design .footer-StayInTouch .social-media a img {
+  width: 22px;
+  height: 22px;
+}
+footer .footer_container .footer-pay {
+  margin-top: 100px;
+  display: flex;
+  margin-left: 60px;
+  padding-bottom: 20px;
+}
+footer .footer_container .footer-pay h4 {
+  margin-right: 142px;
+  font-size: 16px;
+}
+footer .footer_container .footer-pay ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}/*# sourceMappingURL=scss.css.map */
