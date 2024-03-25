@@ -325,22 +325,25 @@ footer{
             display: flex;
             justify-content: center;
             gap: 150px;
-
-            .footer-Products,.footer-Company{
-                li{
-                    margin-bottom: 20px;
-    
-                    h4{
-                        font-size: 24px;
+            .footer-links-adap{
+                display: flex;
+                gap: 200px;
+                .footer-Products,.footer-Company{
+                    li{
+                        margin-bottom: 20px;
         
-                        font-weight: 400;
-        
-                        margin-bottom: 50px;
-                    }
-                    a{
-                        color: Black;
-                        font-size: 16px;
-                        font-weight: 300;
+                        h4{
+                            font-size: 24px;
+            
+                            font-weight: 400;
+            
+                            margin-bottom: 50px;
+                        }
+                        a{
+                            color: Black;
+                            font-size: 16px;
+                            font-weight: 300;
+                        }
                     }
                 }
             }

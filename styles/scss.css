@@ -219,15 +219,19 @@ footer .footer_container .footer-flex-design {
   justify-content: center;
   gap: 150px;
 }
-footer .footer_container .footer-flex-design .footer-Products li, footer .footer_container .footer-flex-design .footer-Company li {
+footer .footer_container .footer-flex-design .footer-links-adap {
+  display: flex;
+  gap: 200px;
+}
+footer .footer_container .footer-flex-design .footer-links-adap .footer-Products li, footer .footer_container .footer-flex-design .footer-links-adap .footer-Company li {
   margin-bottom: 20px;
 }
-footer .footer_container .footer-flex-design .footer-Products li h4, footer .footer_container .footer-flex-design .footer-Company li h4 {
+footer .footer_container .footer-flex-design .footer-links-adap .footer-Products li h4, footer .footer_container .footer-flex-design .footer-links-adap .footer-Company li h4 {
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 50px;
 }
-footer .footer_container .footer-flex-design .footer-Products li a, footer .footer_container .footer-flex-design .footer-Company li a {
+footer .footer_container .footer-flex-design .footer-links-adap .footer-Products li a, footer .footer_container .footer-flex-design .footer-links-adap .footer-Company li a {
   color: Black;
   font-size: 16px;
   font-weight: 300;

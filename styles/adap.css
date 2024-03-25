@@ -1,9 +1,39 @@
 @media (max-width: 1035px) {
+  header nav .nav_container .tea-sort {
+    display: none;
+  }
+  main .reviews-section .reviews-section_container ul {
+    justify-content: center;
+    gap: 30px;
+  }
+  main .reviews-section .reviews-section_container ul li:last-child {
+    display: none;
+  }
   main .blog-section .blog-section_container .tea-blog-list {
-    justify-content: initial;
+    justify-content: center;
   }
   main .blog-section .blog-section_container .tea-blog-list .tea-blog2, main .blog-section .blog-section_container .tea-blog-list .tea-blog4 {
     margin-left: 162px;
+  }
+  main .Questions-section .Questions-section_container h2 {
+    text-align: center;
+    width: 100%;
+  }
+  main .Questions-section .Questions-section_container .questions-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .Questions-section .Questions-section_container .questions-form .left-part, main .Questions-section .Questions-section_container .questions-form .right-part {
+    width: 90%;
+  }
+  main .Questions-section .Questions-section_container .questions-form .left-part form, main .Questions-section .Questions-section_container .questions-form .right-part form {
+    width: 100%;
+  }
+  footer .footer_container .footer-flex-design .footer-links-adap {
+    gap: 50px;
   }
   footer .footer_container .footer-flex-design .footer-adap-design {
     display: block;
@@ -13,5 +43,46 @@
     line-height: normal;
     font-size: 16px;
     margin-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  main .hero-section .hero-section-body_container h1 {
+    font-size: 40px;
+    max-width: 90%;
+  }
+  main .reviews-section .reviews-section_container ul {
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+  }
+  main .reviews-section .reviews-section_container ul li:last-child {
+    display: block;
+  }
+  footer .footer_container .footer-flex-design {
+    gap: 50px;
+  }
+}
+@media (max-width: 480px) {
+  main .tea-section .tea-section_container h2 {
+    font-size: 16px;
+    width: 80%;
+  }
+  main .tea-section .tea-section_container h3 {
+    font-size: 40px;
+  }
+  main .reviews-section .reviews-section_container ul {
+    justify-content: inherit;
+  }
+  main .reviews-section .reviews-section_container ul li {
+    max-width: 45%;
+  }
+  main .reviews-section .reviews-section_container ul li p {
+    font-size: 16px;
+  }
+  footer .footer_container .footer-flex-design {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer_container .footer-adap-design .footer-quote ul {
+    width: 100%;
   }
 }/*# sourceMappingURL=adap.css.map */

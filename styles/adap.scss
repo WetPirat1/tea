@@ -1,10 +1,33 @@
 @media (max-width: 1035px) {
 
+    header{
+        nav{
+            .nav_container{
+                .tea-sort{
+                    display: none;
+                }
+            }
+        }
+    }
+
     main{
+        .reviews-section{
+            .reviews-section_container{
+
+                ul{
+                    justify-content: center;
+                    gap: 30px;
+                    li:last-child{
+                        display: none;
+                    }
+                }
+            }
+        }
+        
         .blog-section{
             .blog-section_container{
                 .tea-blog-list{
-                    justify-content: initial;
+                    justify-content: center;
                     
                     .tea-blog2,.tea-blog4{
                         margin-left: 162px;
@@ -13,11 +36,37 @@
                 }
             }
         }
+        
+        .Questions-section{
+            .Questions-section_container{
+                h2{
+                    text-align: center;
+                    width: 100%;
+                }
+                .questions-form{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    text-align: center;
+                    .left-part,.right-part{
+                        width: 90%;
+                        form{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     footer{
         .footer_container{
             .footer-flex-design{
+                .footer-links-adap{
+                    gap: 50px;
+                }
                 .footer-adap-design{
                     display: block;
 
@@ -35,19 +84,85 @@
 
 
 }
+@media (max-width: 768px){
+    
+    main{
+        .hero-section{
+            .hero-section-body_container{
+                h1{
+                    font-size: 40px;
+                    max-width: 90%;
+                }
+            }
+        }
 
-//для ти блога стили
-    // main{
-    //     .blog-section{
-    //         .blog-section_container{
-    //             .tea-blog-list{
-    //                 justify-content: initial;
-                    
-    //                 .tea-blog2,.tea-blog4{
-    //                     margin-left: 162px;
-    //                 }
+        .reviews-section{
+            .reviews-section_container{
+                ul{
+                    flex: 1 1 auto;
+                    flex-wrap: wrap;
 
-    //             }
-    //         }
-    //     }
-    // }
+                    li:last-child{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        .footer_container{
+            .footer-flex-design{
+                gap: 50px;
+            }
+        }
+    }
+}
+@media (max-width: 480px){
+    main{
+        .tea-section{
+            .tea-section_container{
+                h2{
+                    font-size: 16px;
+                    width: 80%;
+                }
+
+                h3{
+                    font-size: 40px;
+                }
+
+                ul{
+
+                }
+            }
+        }
+        .reviews-section{
+            .reviews-section_container{
+                ul{
+                    justify-content: inherit;
+                    li{
+                        max-width: 45%;
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .footer_container{
+            .footer-flex-design{
+                display: flex;
+                flex-direction: column;
+            }
+            .footer-adap-design{
+                .footer-quote{
+                    ul{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
