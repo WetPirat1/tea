@@ -125,6 +125,7 @@
                 h2{
                     font-size: 16px;
                     width: 80%;
+                    margin-bottom: 50px;
                 }
 
                 h3{
@@ -132,7 +133,7 @@
                 }
 
                 ul{
-
+                    gap: 10px;
                 }
             }
         }
@@ -149,18 +150,53 @@
                 }
             }
         }
+        .blog-section{
+            .blog-section_container{
+                .tea-blog-list{
+                    gap: 0;
+
+                    .tea-blog,.tea-blog2,.tea-blog3,.tea-blog4{
+                        margin-left: 0;
+                        margin-bottom: 30px;
+                        img{
+                            width: 230px;
+                            height: auto;
+                        }
+                        .right-part-blog{
+                            h5{
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
+
     footer{
         .footer_container{
             .footer-flex-design{
                 display: flex;
                 flex-direction: column;
-            }
-            .footer-adap-design{
-                .footer-quote{
-                    ul{
-                        width: 100%;
+                .footer-adap-design{
+                    .footer-quote{
+                        ul{
+                            width: 100%;
+                        }
                     }
+                    .footer-StayInTouch{
+
+                        .footer-contact{
+                            display: flex;
+                        }
+                    }
+                }
+            }
+            .footer-pay{
+                margin-left: 0;
+                h4{
+                    margin-left: 0;
+                    margin-right: 20px;
                 }
             }
         }

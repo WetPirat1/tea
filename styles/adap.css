@@ -65,9 +65,13 @@
   main .tea-section .tea-section_container h2 {
     font-size: 16px;
     width: 80%;
+    margin-bottom: 50px;
   }
   main .tea-section .tea-section_container h3 {
     font-size: 40px;
+  }
+  main .tea-section .tea-section_container ul {
+    gap: 10px;
   }
   main .reviews-section .reviews-section_container ul {
     justify-content: inherit;
@@ -78,11 +82,35 @@
   main .reviews-section .reviews-section_container ul li p {
     font-size: 16px;
   }
+  main .blog-section .blog-section_container .tea-blog-list {
+    gap: 0;
+  }
+  main .blog-section .blog-section_container .tea-blog-list .tea-blog, main .blog-section .blog-section_container .tea-blog-list .tea-blog2, main .blog-section .blog-section_container .tea-blog-list .tea-blog3, main .blog-section .blog-section_container .tea-blog-list .tea-blog4 {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  main .blog-section .blog-section_container .tea-blog-list .tea-blog img, main .blog-section .blog-section_container .tea-blog-list .tea-blog2 img, main .blog-section .blog-section_container .tea-blog-list .tea-blog3 img, main .blog-section .blog-section_container .tea-blog-list .tea-blog4 img {
+    width: 230px;
+    height: auto;
+  }
+  main .blog-section .blog-section_container .tea-blog-list .tea-blog .right-part-blog h5, main .blog-section .blog-section_container .tea-blog-list .tea-blog2 .right-part-blog h5, main .blog-section .blog-section_container .tea-blog-list .tea-blog3 .right-part-blog h5, main .blog-section .blog-section_container .tea-blog-list .tea-blog4 .right-part-blog h5 {
+    font-size: 20px;
+  }
   footer .footer_container .footer-flex-design {
     display: flex;
     flex-direction: column;
   }
-  footer .footer_container .footer-adap-design .footer-quote ul {
+  footer .footer_container .footer-flex-design .footer-adap-design .footer-quote ul {
     width: 100%;
+  }
+  footer .footer_container .footer-flex-design .footer-adap-design .footer-StayInTouch .footer-contact {
+    display: flex;
+  }
+  footer .footer_container .footer-pay {
+    margin-left: 0;
+  }
+  footer .footer_container .footer-pay h4 {
+    margin-left: 0;
+    margin-right: 20px;
   }
 }/*# sourceMappingURL=adap.css.map */
