@@ -84,6 +84,7 @@
 
 
 }
+
 @media (max-width: 768px){
     
     main{
@@ -118,6 +119,7 @@
         }
     }
 }
+
 @media (max-width: 480px){
     main{
         .tea-section{
@@ -159,7 +161,7 @@
                         margin-left: 0;
                         margin-bottom: 30px;
                         img{
-                            width: 230px;
+                            max-width: 230px;
                             height: auto;
                         }
                         .right-part-blog{
@@ -178,7 +180,10 @@
             .footer-flex-design{
                 display: flex;
                 flex-direction: column;
+                align-items: center;
+                text-align: center;
                 .footer-adap-design{
+                    text-align: center;
                     .footer-quote{
                         ul{
                             width: 100%;
@@ -188,15 +193,58 @@
 
                         .footer-contact{
                             display: flex;
+                            justify-content: center;
+                            align-items: center;
                         }
                     }
                 }
             }
             .footer-pay{
                 margin-left: 0;
+                justify-content: center;
                 h4{
                     margin-left: 0;
                     margin-right: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 356px){
+    main{
+        .blog-section{
+            .blog-section_container{
+                h2{
+                    margin-bottom: 130px;
+                }
+                .tea-blog-list{
+                    margin-bottom: -80px;
+                    .tea-blog3,.tea-blog4{
+                        display: none;
+                    }
+                    .tea-blog,.tea-blog2{
+                        flex-direction: column;
+                        justify-content: center;
+
+                        width: 100%;
+                        img{
+                            max-width: 100%;
+                            margin: 0;
+                            padding: 0;
+
+                            margin-bottom: 10px;
+
+                        }
+                        .right-part-blog{
+                            margin: 0;
+                            width: 100%;
+                            p{
+                                flex: 0 0 auto;
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
                 }
             }
         }
